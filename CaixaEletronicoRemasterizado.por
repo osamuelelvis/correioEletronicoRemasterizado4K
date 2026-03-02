@@ -127,6 +127,13 @@ programa
 
 	funcao erro() {
 		escreva("Opção inválida.\n")
+		escreva("Escolha uma opção:\n")
+		escreva("1. Ver saldo\n")
+		escreva("2. Ver extrato\n")
+		escreva("3. Fazer saque\n")
+		escreva("4. Fazer depósito\n")
+		escreva("5. Fazer transferência\n")
+		escreva("6. Sair\n")
 	}
 
 	funcao sair(){
@@ -139,7 +146,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1279; 
+ * @POSICAO-CURSOR = 2677; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
